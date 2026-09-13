@@ -1,0 +1,96 @@
+{
+ "vape-pens": [
+  {
+   "column": "title",
+   "relation": "contains",
+   "condition": "vape pen"
+  },
+  {
+   "column": "variant_inventory",
+   "relation": "greater_than",
+   "condition": "0"
+  }
+ ],
+ "glass-adapters": [
+  {
+   "column": "title",
+   "relation": "contains",
+   "condition": "adapter"
+  },
+  {
+   "column": "title",
+   "relation": "contains",
+   "condition": "glass"
+  },
+  {
+   "column": "variant_inventory",
+   "relation": "greater_than",
+   "condition": "0"
+  }
+ ],
+ "smell-proof-storage": [
+  {
+   "column": "title",
+   "relation": "contains",
+   "condition": "smell"
+  },
+  {
+   "column": "variant_inventory",
+   "relation": "greater_than",
+   "condition": "0"
+  }
+ ],
+ "silicone-pipes": [
+  {
+   "column": "variant_inventory",
+   "relation": "greater_than",
+   "condition": "0"
+  },
+  {
+   "column": "type",
+   "relation": "equals",
+   "condition": "Hand Pipes"
+  },
+  {
+   "column": "title",
+   "relation": "contains",
+   "condition": "silicone"
+  }
+ ],
+ "steamroller-pipes": [
+  {
+   "column": "title",
+   "relation": "contains",
+   "condition": "steamroller"
+  },
+  {
+   "column": "variant_inventory",
+   "relation": "greater_than",
+   "condition": "0"
+  }
+ ],
+ "hookah-hoses": [
+  {
+   "column": "title",
+   "relation": "contains",
+   "condition": "hose"
+  },
+  {
+   "column": "variant_inventory",
+   "relation": "greater_than",
+   "condition": "0"
+  }
+ ],
+ "gas-mask-bongs": [
+  {
+   "column": "title",
+   "relation": "contains",
+   "condition": "gas mask"
+  },
+  {
+   "column": "variant_inventory",
+   "relation": "greater_than",
+   "condition": "0"
+  }
+ ]
+}
